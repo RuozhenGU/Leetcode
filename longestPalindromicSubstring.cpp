@@ -11,6 +11,12 @@
     O(n^2)
  */
 
+/*
+ * bc: f[i][i] == true and f[i][i+1] == true if s[i] == s[i+1]
+ * build: f[i][j] = f[i+1][j-1] if s[i] == s[j]
+ * build from bottom to top. save the result while building
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
