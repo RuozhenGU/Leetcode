@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a3e21a-6c0b-4bb7-80b3-68981f341aa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestPalindromeSubarray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/longestPalindromicSubstring.cpp" afterPath="$PROJECT_DIR$/longestPalindromicSubstring.cpp" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="splitArrayLargestSum.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="splitArrayLargestSum.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitArrayLargestSum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="612">
               <caret line="36" column="23" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longestPalindromicSubstring.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/longestPalindromicSubstring.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -50,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LongestPalindromeSubarray.cpp" />
+        <option value="$PROJECT_DIR$/longestPalindromicSubstring.cpp" />
       </list>
     </option>
   </component>
@@ -316,18 +328,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LongestPalindromeSubarray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/splitArrayLargestSum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="612">
           <caret line="36" column="23" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LongestPalindromeSubarray.cpp">
+    <entry file="file://$PROJECT_DIR$/longestPalindromicSubstring.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="272">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
           <folding />
         </state>
       </provider>
