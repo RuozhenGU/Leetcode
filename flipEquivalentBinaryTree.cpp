@@ -1,17 +1,17 @@
 
+/*
+For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child subtrees.
 
+A binary tree X is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of flip operations.
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+Given the roots of two binary trees root1 and root2, return true if the two trees are flip equivelent or false otherwise.
+*/
+
+/*
+soln: only need to compare the children and see if children are same
+soln2: revert to make sure for each node, left child is always smaller than right. then dfs to traverse 
+*/
+
 class Solution {
 public:
     bool flipEquiv(TreeNode* root1, TreeNode* root2) {
@@ -28,3 +28,5 @@ public:
 
     }
 };
+
+// Time Complexity: O(min(N1,N2))
