@@ -64,7 +64,7 @@ public:
             }
         }
         if (incre == 1) { // edge case [5], [5]
-            //insert node
+            //insert nodess
             ListNode *node_to_insert = new ListNode{1, nullptr};
             ListNode *curr = soln;
             while (curr->next) {
