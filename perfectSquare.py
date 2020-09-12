@@ -23,7 +23,6 @@ class Solution(object):
         return dp[-1]
 
 
-
 class Solution:
     def numSquares(self, n):
 
