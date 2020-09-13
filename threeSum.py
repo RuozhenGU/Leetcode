@@ -1,6 +1,8 @@
 """
 
  Find all unique triplets in the array which gives the sum of zero.
+
+ note: need to sort to skip the duplicate values!!!
  """
 
 # important: after sort, consider duplicates
