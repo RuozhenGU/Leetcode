@@ -48,7 +48,7 @@ def printCircuit(adj):
         # If there's remaining edge in adjacency list   
         # of the current vertex  
         if adj[curr_v]: 
-  
+  ss
             # Find and remove the next vertex that is   
             # adjacent to the current vertex 
             next_v = adj[curr_v].pop() 

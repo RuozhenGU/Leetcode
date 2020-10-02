@@ -58,7 +58,7 @@ class Solution:
                     if color[neighbor] == Solution.WHITE:
                         dfs(neighbor)
                     elif color[neighbor] == Solution.GRAY:
-                         # An edge to a GRAY vertex represents a cycle
+                    # An edge to a GRAY vertex represents a cycle
                         is_possible = False
 
             # Recursion ends. We mark it as black
