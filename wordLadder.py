@@ -37,21 +37,15 @@ class Solution(object):
 
         if not wordList:
             return 0
-
+        if endWord not in wordList or not endWord or not beginWord:
+            return 0
         # construct graph
         graph = collections.defaultdict(list)
         for word in wordList:
             for i in range(len(word)):
                 intermediate_word = word[:i] + "*" + word[i + 1:]
                 graph[intermediate_word].append(word)
-        
-        # check if start and end are reachable
-        for start_end in [beginWord, endWord]:
-            for i in range(len(start_end)):
-                intermediate_word = word[:i] + "*" + word[i + 1:]
-                if not intermediate_word in graph:
-                    return 0
-        
+                
         # bfs 
         visited = {beginWord: True}
         queue = collections.deque([(beginWord, 1)]) # default a list, inside put tuple

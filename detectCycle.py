@@ -1,5 +1,10 @@
 from collections import defaultdict 
-  
+'''
+To detect a back edge, keep track of vertices currently in the recursion stack of function for DFS traversal. 
+If a vertex is reached that is already in the recursion stack, then there is a cycle in the tree. 
+The edge that connects the current vertex to the vertex in the recursion stack is a back edge. 
+Use recStack[] array to keep track of vertices in the recursion stack.
+'''
 class Graph(): 
     def __init__(self,vertices): 
         self.graph = defaultdict(list) 

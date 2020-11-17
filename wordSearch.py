@@ -19,7 +19,8 @@ Given word = "ABCB", return false.
 
 
 class Solution:
-    def exist(self, board, word):
+    def 
+    (self, board, word):
         if not word:
             return True
         if not board:

@@ -29,9 +29,8 @@ class Solution:
             for n in graph[node]:
                 if n not in visited:
                     ans = dfs(n, visited, graph, stack, cycle)
-                else:
-                    if n in cycle: # important
-                        return False
+                if n in cycle: # important
+                    return False
                     
                 if not ans:
                     return False
@@ -46,7 +45,7 @@ class Solution:
         for first_word, second_word in zip(words, words[1:]):
             for c, d in zip(first_word, second_word):
                 if c != d: 
-                    adj_list[d].append(c)
+                    adj_list[d].append(c) # reversely!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                     break
             else: # Check that second word isn't a prefix of first word.
                 if len(second_word) < len(first_word): 
